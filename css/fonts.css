@@ -1,0 +1,10 @@
+@font-face {
+    font-family: Helvetica;
+    src: url(/fonts/Helvetica-Neue-LT-Com-55-Roman.ttf);
+}
+
+@font-face {
+    font-family: Helveticabd;
+    src: url(/fonts/Helvetica\ Neue\ W01\ 77\ Bd\ Cn\ Obl.otf);
+    src: url(/fonts/Helvetica\ Neue\ W01\ 77\ Bd\ Cn\ Obl.ttf);
+}
