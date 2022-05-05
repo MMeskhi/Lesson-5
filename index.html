@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Meskhi - Lesson 5</title>
@@ -79,14 +80,25 @@
         </button>
     </section>
     <footer>
+        <div class="footer-contact">
+            <h3>კონტაქტი</h3>
+            <p>Lorem Ipsum საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია. იგი სტანდარტად 1500-იანი წლებიდან იქცა,
+                როდესაც უცნობმა მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.</p>
+        </div>
+        <div id="map"></div>
         <p>ყველა უფლება დაცულია</p>
-        <div>
+        <div class="footer-info">
             <span>დამზადებულია</span>
             <img class="heart" src="img/heart.png" alt="Heart">
             <span>-ით</span>
+            <img class="smartweb" src="img/smartweb.png" alt="Smart Web's Logo">
         </div>
-        <img class="smartweb" src="img/smartweb.png" alt="Smart Web's Logo">
+
     </footer>
+    <script src="script.js"></script>
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDtrPb_vjzSUn1ao_ZOnXuBIB03qMLdwOc&region=GEO&callback=initMap">
+        </script>
 </body>
 
 </html>
