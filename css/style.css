@@ -15,13 +15,25 @@ a {
     text-decoration: none;
 }
 
-ul, li {
+header ul, li {
     list-style-type: none;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 35px;
+    margin-top: -17px;
 }
 
 header {
     height: 387.56px;
     background: #0020F4;
+    padding-top: 27px;
+    padding-left: 240px;
+}
+
+.navbar {
+    margin-left: 400px;
+
 }
 
 .navbar-contact a {
@@ -33,6 +45,9 @@ header {
     height: 55px;
     background-color: #ffffff;
     border-radius: 28px;
+    margin-top: -35px;
+    padding: 18px 43px 18px 36px;
+    height: unset;
 }
 
 .logo {
@@ -40,16 +55,28 @@ header {
     height: 65px;
 }
 
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -150px;
+    margin-bottom: 100px;
+}
+
 section p {
+    margin-top: 30px;
     color: #171717;
 }
 
 section h3 {
+    margin-top: 20px;
     font-size: 28px;
     font-family: "Helveticabd";
 }
 
 .section-button {
+    margin-top: 35px;
     background-color: #0A22F4;
     color: #ffffff;
     font-size: 16px;
@@ -57,6 +84,16 @@ section h3 {
     width: 341px;
     height: 55px;
 }
+
+.section-images {
+    margin-top: 30px;
+}
+
+.section-images img {
+    margin: 13px;
+}
+
+.main-image {}
 
 footer {
     background-color: #0A22F4;
