@@ -1,10 +1,19 @@
 @font-face {
-    font-family: Helvetica;
-    src: url(/fonts/Helvetica-Neue-LT-Com-55-Roman.ttf);
+    font-family: 'BPG';
+    src: url('../fonts/bpg-nino-mkhedruli-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/bpg-nino-mkhedruli-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bpg-nino-mkhedruli-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bpg-nino-mkhedruli-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/bpg-nino-mkhedruli-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bpg-nino-mkhedruli-webfont.svg#bpg_nino_mkhedruliregular') format('svg'); /* Legacy iOS */
 }
 
 @font-face {
-    font-family: Helveticabd;
-    src: url(/fonts/Helvetica\ Neue\ W01\ 77\ Bd\ Cn\ Obl.otf);
-    src: url(/fonts/Helvetica\ Neue\ W01\ 77\ Bd\ Cn\ Obl.ttf);
+    font-family: 'BPG Bold';
+    src: url('../fonts/bpg-nino-mkhedruli-bold-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/bpg-nino-mkhedruli-bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bpg-nino-mkhedruli-bold-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bpg-nino-mkhedruli-bold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/bpg-nino-mkhedruli-bold-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bpg-nino-mkhedruli-bold-webfont.svg#bpg_nino_mkhedrulibold') format('svg'); /* Legacy iOS */
 }
